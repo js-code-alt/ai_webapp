@@ -1,2 +1,45 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="home-container">
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <h2>My Dashboard</h2>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search" />
+    </div>
+    <div class="folders">
+      <h3>Clients</h3>
+      <ul>
+        <li>Documents</li>
+        <li>Active Clients</li>
+        <li>New Clients</li>
+        <li>Billing</li>
+      </ul>
+    </div>
+    <div class="chats">
+      <h3>Calender</h3>
+      <ul>
+        <li>View Calender</li>
+      </ul>
+    </div>
+    <button class="new-chat-button">Add Appointment</button>
+  </div>
+  <div class="main-content">
+    <div class="header">
+      <%# <h1>Ai Doc Assistant</h1> %>
+    </div>
+    <div class="prompt-container">
+      <div class="prompt">
+        <h2>Ai Doc Assistant</h2>
+        <p>Your intelligent healthcare companion designed to provide personalized medical consultations. </p>
+        <%# <div class="options">
+          <div class="option">Button</div>
+          <div class="option">Button</div>
+          <div class="option">Button</div>
+        </div> %>
+        <div class="prompt-input">
+          <button class="circle-button">Start Consultation</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
